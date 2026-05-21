@@ -1,13 +1,34 @@
+/* ===== RESET & GLOBALS ===== */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --pink-bg: #f2a3c7;
+  --pink-line: #e893b5;
+  --pink-card: #fce4ef;
+  --pink-card-border: #f5c6d8;
+  --pink-button: #f5c6d8;
+  --pink-button-hover: #f0b0c8;
+  --text-dark: #5a3d4a;
+  --text-medium: #7a5a6a;
+  --text-light: #9a7a8a;
+  --peach-blob: #f8d4c4;
+  --scratch-dark: #4a3040;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Kanit', 'Segoe UI', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
